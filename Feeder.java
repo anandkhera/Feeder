@@ -21,4 +21,18 @@ private int currentFood;
   { 
     return 0; 
   }
+//System.out.println(f.currentFood);
+public int getCurrentFood()
+    { 
+        return currentFood;
+    }
+public Feeder(int c)
+{
+  
+  currentFood = c;
+
+}
+public Feeder () {}
+
+
 }
